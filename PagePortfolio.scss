@@ -1,0 +1,487 @@
+@import 'fonts';
+@import 'variable';
+@import 'mixin';
+//styles
+html{
+    scroll-behavior: smooth;
+}
+
+
+//navigation
+.navigasi{
+    background-color: $secondaryColor;
+}
+.custom-nav {
+    .navbar-brand{
+        img {
+            width: 143px;
+            height: 60.62px;
+            }
+    }
+    #custom-navi{
+        .navbar-nav{
+            .nav-item{
+                .nav-link{
+                color: $tertiaryColor;
+                font-family: 'Montserrat', sans-serif;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 20px;
+                margin-left: 2em;
+                transition: 0.3s color ease;
+                
+                &:hover{
+                    color: $primaryColor;
+                    }
+                
+                }
+                .active{
+                        color: $primaryColor;
+                    }
+            }
+        }
+    }
+    
+}
+.judul{
+    margin-top: 35px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 3vmax;
+    color: $secondaryColor;
+}
+.nav-tabs{
+    margin-top: 3em;
+    border-color: $secondaryColor;
+    .nav-item-tabs{
+            font-family: 'Poppins', sans-serif;
+            font-size: 13px;
+            font-weight: 400;
+        .nav-link{
+            color: $secondaryColor;
+            &:hover{
+                color: $tertiaryColor;
+                background-color: $secondaryColor;
+                }
+        }
+        .active{
+            color: $tertiaryColor;
+            background-color: $secondaryColor;
+        }
+    }
+}
+.uiuxdesign{
+    margin-top:3em;
+}
+
+.media{
+    background-color: $backgroundPort;
+    padding: 60px;
+    h5{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 24px;
+        font-weight: 600;
+        color: $secondaryColor;
+    }
+    p{
+        margin-top: 30px;
+        text-align: justify;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        color: $secondaryColor;
+    }
+    a{
+        i{
+            margin-left: 5px;
+            font-size: 14px
+        }
+        @include tombol;
+            margin-top: 5em;
+            transition: 0.3s ease;
+            border-radius: 20px;
+            &:hover{
+            color:$tertiaryColor;
+            }
+    }
+}
+
+//flatdesign
+#flatdesign{
+  margin-top: 3em;
+    * {
+        box-sizing: border-box;
+      }
+      
+      /* Position the image container (needed to position the left and right arrows) */
+      .container {
+        position: relative;
+      }
+      
+      /* Hide the images by default */
+      .mySlides {
+        display: none;
+      }
+      .mySlides{
+        img{
+          width: 100%;
+          height: 30vmax;
+        }
+      }
+      /* Add a pointer when hovering over the thumbnail images */
+      .cursor {
+        cursor: pointer;
+      }
+      
+      /* Next & previous buttons */
+      .prev,
+      .next {
+        cursor: pointer;
+        position: absolute;
+        top: 45%;
+        width: auto;
+        padding: 16px;
+        margin-top: -50px;
+        color:$secondaryColor;
+        font-weight: bold;
+        font-size: 20px;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+        -webkit-user-select: none;
+      }
+      
+      /* Position the "next button" to the right */
+      .next {
+        right: 15px;
+        border-radius: 3px 0 0 3px;
+      }
+      
+      /* On hover, add a black background color with a little bit see-through */
+      .prev:hover,
+      .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+        color: $tertiaryColor;
+        text-decoration: none;
+      }
+      
+      /* Number text (1/3 etc) */
+      .numbertext {
+        color:rgba($secondaryColor,.8);
+        font-size: 12px;
+        font-family:'Montserrat', sans-serif; 
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+      }
+      
+      /* Container for image text */
+      .caption-container {
+        font-family:'Poppins', sans-serif; 
+        font-weight: 500;
+        text-align: center;
+        background-color:$secondaryColor;
+        padding: 3px;
+        color:$tertiaryColor;
+        #caption {
+          margin: 3px;
+        }
+      }
+      
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      
+      /* Six columns side by side */
+      .row{
+        margin: 0 auto;
+      }
+      .column {
+        float: left;
+        width: 16.66%;
+      }
+      
+      /* Add a transparency effect for thumnbail images */
+      .demo {
+        opacity: 0.6;
+      }
+      
+      .active,
+      .demo:hover {
+        opacity: 1;
+      }
+}
+
+//brand design
+  //ayusalogo
+  .brandayusa{
+    margin-top: 3em;
+    margin-bottom: 3em;
+    position: relative;
+    img{
+      width: 80%;
+      height: auto;
+      margin-left: 20%;
+    }
+
+    /* Bottom right text */
+    .text-block {
+      position: absolute;
+      font-family:'Poppins', sans-serif;
+      h4{
+        color: $secondaryColor;
+        font-weight: 600;
+      }
+      p{
+        font-size: 14px;
+        font-weight: 300;
+        color: $tertiaryColor;
+      }
+      bottom: 20px;
+      right: 0;
+      background-color:rgba($backgroundPort,.8);
+      color: white;
+      margin-right: 60%;
+      padding: 50px;
+    } 
+  }
+  .brandidentity{
+    margin-top: 3em;
+    margin-bottom: 3em;
+    position: relative;
+    img{
+      width: 80%;
+      height: auto;
+    }
+
+    /* Bottom left text */
+    .text-blocks {
+      position: absolute;
+      font-family:'Poppins', sans-serif;
+      h4{
+        color: $secondaryColor;
+        font-weight: 600;
+      }
+      p{
+        font-size: 14px;
+        font-weight: 300;
+        color: $tertiaryColor;
+      }
+      top : 20px;
+      right: 0;
+      background-color:rgba($backgroundPort,.8);
+      color: white;
+      margin-left: 60%;
+      padding: 50px;
+    } 
+  }   
+  .imagelogoa{
+  position: relative;
+    img{
+    width: 100%;
+    height: 36vmax;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    }
+    #brandtag{
+      height:36vmax;
+      width: 100%;
+    }
+  }   
+/*motorlogo
+  .brandmotor{
+    margin-top: 3em;
+    margin-bottom: 3em;
+    position: relative;
+    img{
+      margin-left: 20%;
+      width: 80%;
+      height: 30vmax;
+    }
+
+    // Bottom right text 
+    .text-block {
+      position: absolute;
+      font-family:'Poppins', sans-serif;
+      h4{
+        color: $secondaryColor;
+        font-weight: 600;
+      }
+      p{
+        font-size: 14px;
+        font-weight: 300;
+        color: $tertiaryColor;
+      }
+      bottom: 0;
+      left: 0;
+      background-color:rgba($backgroundPort,.8);
+      color: white;
+      margin-right: 60%;
+      padding: 50px;
+      }  
+    }    
+    .imagelogo1{
+    position: relative;
+    img{
+    width: 100%;
+    height: 30vmax;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    }   
+    }
+*/
+
+//content
+.content{
+  margin-top: 3em;
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+}
+
+//footer
+footer{
+  position: relative;
+  margin-top: 10%;
+  height: 110px;
+  padding-top: 5%;
+  padding-bottom: 4%;
+  background-color: rgba($blackcolor,0.8);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+footer  .custom-find{
+  margin-left: 5%;
+  h3{
+      font-family: 'Poppins', sans-serif; 
+      font-size: 14px;
+      color: $primaryColor;
+  }
+}
+footer .custom-services{
+  margin-left: 4%;
+  h3{
+  font-family: 'Poppins', sans-serif; 
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: $primaryColor;
+  }
+  .col{
+      font-family: 'Poppins', sans-serif; 
+      font-size: 12px;
+      color: $tertiaryColor;
+      column-count: 1;
+  }
+}
+
+.social-icons a{
+  width: 35px;
+  height: 35px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin : 5px;
+  background-color: $secondaryColor;
+  border-radius: 50%;
+  text-decoration-line: none;
+}
+.copyright{
+  background-color: $blackcolor;
+  padding: .5px;
+  p{
+  margin-top:3px;
+  margin-bottom: 5px;
+  color: $tertiaryColor;opacity: 60%;
+  text-align: right;
+  font-size: 12px;
+  padding-right: 10px;
+  }
+
+}
+.social-icons i{
+color:$tertiaryColor;
+}
+.social-icons a:hover, 
+.social-bar a:hover{
+  background-color:$tertiaryColor;
+  box-shadow: 2px 2px 12px rgba($secondaryColor,0.4);
+  transition: all ease 0.5s;
+  }
+
+.social-icons a:hover i,
+.social-bar a:hover i{
+  color: $secondaryColor;
+  transition: all ease 0.5s;
+}
+
+.social-bar{
+  position: fixed;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+}
+.social-bar i{
+  color: $tertiaryColor;
+  font-size: 20px;
+}
+.social-bar a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 50px;
+  padding: 0px;
+  margin: 0px;
+  line-height: 0px;
+  background-color: $secondaryColor;
+  box-shadow: 2px 2px 15px rgba($secondaryColor,0.6);
+  text-decoration-line: none;
+}
+.social-bar {
+#top{
+  border-radius: 50% 50% 0 0;
+}
+#bottom{
+  border-radius: 0 0 50% 50%;
+}
+}

@@ -1,0 +1,799 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
+body #mouse {
+  left: 50%;
+  cursor: pointer;
+}
+
+body::before {
+  content: '';
+  background-image: url(img/backgrnd.png);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 70vmax;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.custom-nav .navbar-brand img {
+  width: 143px;
+  height: 60.62px;
+}
+
+.custom-nav #custom-navi .navbar-nav .nav-item .nav-link {
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  margin-left: 2em;
+  -webkit-transition: 0.3s color ease;
+  transition: 0.3s color ease;
+}
+
+.custom-nav #custom-navi .navbar-nav .nav-item .nav-link:hover {
+  color: #0FCEE7;
+}
+
+.custom-nav #custom-navi .navbar-nav .nav-item .active {
+  color: #0FCEE7;
+}
+
+.custom-section .custom-myfoto img {
+  width: auto;
+  height: auto;
+  max-height: 512px;
+}
+
+@media screen and (max-width: 992px) {
+  .custom-section .custom-myfoto img {
+    width: 20vmax;
+    height: 36vmax;
+    margin-right: 16em;
+    margin-left: -5em;
+  }
+}
+
+.custom-section .custom-intro {
+  margin-top: 10em;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 10em;
+}
+
+.custom-section .custom-intro h3 {
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+
+.custom-section .custom-intro h1 {
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  color: #0FCEE7;
+}
+
+.custom-section .custom-intro p {
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 300;
+  color: #FFFFFF;
+  margin-top: 1.5em;
+}
+
+.custom-section .custom-intro a {
+  font-family: 'Poppins', sans-serif;
+  font-size: .8rem;
+  font-weight: 700;
+  display: inline-block;
+  color: #077684;
+  background-color: #0FCEE7;
+  padding: .5em 1.5em;
+  text-decoration: none;
+  margin-top: 1.5em;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.custom-section .custom-intro a:hover {
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 767px) {
+  .custom-section .custom-intro {
+    margin-top: -14em;
+    text-align: right;
+  }
+  .custom-section .custom-intro p {
+    font-size: .5rem;
+    font-style: normal;
+    font-weight: 200;
+    color: #FFFFFF;
+    margin-top: 1.5em;
+  }
+  .custom-section .custom-intro h3 {
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    color: #FFFFFF;
+  }
+  .custom-section .custom-intro p, .custom-section .custom-intro h3 {
+    text-shadow: 1px 1px 2px rgba(7, 118, 132, 0.4);
+  }
+}
+
+@media screen and (max-width: 992px) {
+  #mouse {
+    display: none;
+  }
+}
+
+.custom-about .custom-aboutme h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  color: #0FCEE7;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.custom-about .custom-aboutme p {
+  margin-top: 2.5em;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #077684;
+  text-align: justify;
+  font-size: 1rem;
+}
+
+.custom-about .custom-aboutme h5 {
+  margin-top: 1.5em;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #077684;
+  text-align: right;
+}
+
+.custom-about .custom-aboutme a {
+  font-family: 'Poppins', sans-serif;
+  font-size: .8rem;
+  font-weight: 700;
+  display: inline-block;
+  color: #077684;
+  background-color: #0FCEE7;
+  padding: .5em 1.5em;
+  text-decoration: none;
+  margin-top: 1em;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  padding: .5em 3em;
+}
+
+.custom-about .custom-aboutme a:hover {
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 769px) {
+  .custom-about .custom-aboutme {
+    margin-top: .5em;
+  }
+  .custom-about .custom-aboutme h1 {
+    margin-top: -1em;
+  }
+  .custom-about .custom-aboutme p {
+    font-size: .5rem;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 1.5em;
+  }
+  .custom-about .custom-aboutme p {
+    text-shadow: 1px 1px 2px rgba(7, 118, 132, 0.1);
+  }
+  .custom-about .custom-aboutme h5 {
+    font-size: .6rem;
+  }
+}
+
+.custom-about .custom-mypc img {
+  max-height: 512px;
+  margin-right: 0;
+}
+
+@media screen and (max-width: 992px) {
+  .custom-about .custom-mypc img {
+    width: 100%;
+    height: auto;
+    margin-right: 0;
+  }
+}
+
+.custom-skills {
+  margin-top: 3em;
+  background: #077684;
+}
+
+.custom-skills .responsive {
+  margin-top: 3em;
+  margin-bottom: 3em;
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 992px) {
+  .custom-skills .responsive {
+    margin-top: .5em;
+    margin-bottom: .5em;
+  }
+}
+
+.container .process {
+  background-image: url(img/lineprocess.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: right bottom, left top;
+  position: absolute;
+  margin-left: 8vmax;
+  margin-right: 50vmax;
+  width: 70%;
+  height: 70%;
+  /* The overlay effect (full height and width) - lays on top of the container and over the image */
+  /* When you mouse over the container, the overlay text will "zoom" in display */
+  /* Some text inside the overlay, which is positioned in the middle vertically and horizontally */
+  /* The overlay effect (full height and width) - lays on top of the container and over the image */
+  /* When you mouse over the container, the overlay text will "zoom" in display */
+  /* Some text inside the overlay, which is positioned in the middle vertically and horizontally */
+  /* The overlay effect (full height and width) - lays on top of the container and over the image */
+  /* When you mouse over the container, the overlay text will "zoom" in display */
+  /* Some text inside the overlay, which is positioned in the middle vertically and horizontally */
+  /* The overlay effect (full height and width) - lays on top of the container and over the image */
+  /* When you mouse over the container, the overlay text will "zoom" in display */
+  /* Some text inside the overlay, which is positioned in the middle vertically and horizontally */
+}
+
+.container .process .custom-process h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 2.4vmax;
+  color: #0FCEE7;
+  margin-top: 1em;
+}
+
+.container .process .zoomdiscover {
+  position: relative;
+  width: 50%;
+}
+
+.container .process #discover {
+  width: 118.02px;
+  height: 89.27px;
+  margin-left: -1rem;
+  margin-top: 60%;
+  position: absolute;
+}
+
+.container .process .overlay {
+  position: absolute;
+  margin-top: 60%;
+  margin-left: -1rem;
+  overflow: hidden;
+  width: 115.02px;
+  height: 90px;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.container .process .zoomdiscover:hover .overlay {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.container .process .text {
+  color: #0FCEE7;
+  font-size: 12px;
+  font-weight: 600;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+  border: 2px solid #0FCEE7;
+  border-radius: 100%;
+  background: #FFFFFF;
+  padding: 30% 10% 29% 10%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container .process .zoomdefine {
+  position: relative;
+  width: 50%;
+}
+
+.container .process #define {
+  position: absolute;
+  width: 118.02px;
+  height: 89.27px;
+  margin-left: 45%;
+  margin-top: 63%;
+}
+
+.container .process .overlaydefine {
+  position: absolute;
+  margin-top: 63%;
+  margin-left: 45%;
+  overflow: hidden;
+  width: 115.02px;
+  height: 90px;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.container .process .zoomdefine:hover .overlaydefine {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.container .process .textdefine {
+  color: #0FCEE7;
+  font-size: 12px;
+  font-weight: 600;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+  border: 2px solid #0FCEE7;
+  border-radius: 100%;
+  background: #FFFFFF;
+  padding: 30% 18% 29% 18%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container .process .zoomideate {
+  position: relative;
+  width: 50%;
+}
+
+.container .process #ideate {
+  position: absolute;
+  width: 118.02px;
+  height: 89.27px;
+  margin-left: 33vmax;
+  margin-top: 18vmax;
+}
+
+.container .process .overlayideate {
+  position: absolute;
+  margin-top: 18vmax;
+  margin-left: 33vmax;
+  overflow: hidden;
+  width: 115.02px;
+  height: 90px;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.container .process .zoomideate:hover .overlayideate {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.container .process .textideate {
+  color: #0FCEE7;
+  font-size: 12px;
+  font-weight: 600;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+  border: 2px solid #0FCEE7;
+  border-radius: 100%;
+  background: #FFFFFF;
+  padding: 30% 18% 29% 18%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container .process .zoomimplement {
+  position: relative;
+  width: 50%;
+}
+
+.container .process #implement {
+  position: absolute;
+  width: 118.02px;
+  height: 89.27px;
+  margin-left: 49vmax;
+  margin-top: 11vmax;
+}
+
+.container .process .overlayimplement {
+  position: absolute;
+  margin-top: 11vmax;
+  margin-left: 49vmax;
+  overflow: hidden;
+  width: 115.02px;
+  height: 90px;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.container .process .zoomimplement:hover .overlayimplement {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.container .process .textimplement {
+  color: #0FCEE7;
+  font-size: 12px;
+  font-weight: 600;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+  border: 2px solid #0FCEE7;
+  border-radius: 100%;
+  background: #FFFFFF;
+  padding: 30% 4% 29% 4%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.custom-portfoliotext {
+  margin-top: 50%;
+}
+
+.custom-portfoliotext h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.4vmax;
+  font-weight: 700;
+  color: #0FCEE7;
+  margin-bottom: 0em;
+}
+
+.carousel-inner {
+  margin-bottom: 1em;
+}
+
+.carousel-inner .carousel-item img {
+  position: relative;
+  padding: 2em 5em 0em 5em;
+}
+
+.carousel-inner .carousel-caption {
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(6, 133, 150, 0.9)), to(rgba(0, 0, 0, 0)));
+  background: linear-gradient(to top, rgba(6, 133, 150, 0.9), rgba(0, 0, 0, 0));
+  /* Black background with 0.5 opacity */
+  color: #e5f5fa;
+  /* Grey text */
+  width: 85.5%;
+  /* Full width */
+  left: 7.3%;
+  bottom: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.carousel-inner .carousel-caption h5 {
+  font-size: 16px;
+  font-weight: 600;
+  padding-top: 2em;
+  text-align: left;
+  margin-left: 2em;
+}
+
+.carousel-inner .carousel-caption p {
+  font-size: 12px;
+  font-weight: 500;
+  padding-bottom: 0;
+  text-align: left;
+  margin-left: 2.5em;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 50px;
+  height: 50px;
+  background-color: #0FCEE7;
+  border-radius: 50%;
+  top: 50%;
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
+}
+
+.buttonporto {
+  font-family: 'Poppins', sans-serif;
+  font-size: .8rem;
+  font-weight: 700;
+  display: inline-block;
+  color: #077684;
+  background-color: #0FCEE7;
+  padding: .5em 1.5em;
+  text-decoration: none;
+  margin-top: 1.5em;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+  text-align: center;
+  border-radius: .5em;
+}
+
+.buttonporto:hover {
+  color: #FFFFFF;
+}
+
+.testimoni {
+  background-image: url("img/back testimoni.png");
+  background-repeat: no-repeat;
+  background-attachment: relative;
+  background-size: 100% 100%;
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+
+.testimoni h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.4vmax;
+  font-weight: 700;
+  color: #0FCEE7;
+  margin-bottom: 2em;
+}
+
+.testimoni .nurul {
+  height: auto;
+  width: 50%;
+}
+
+.testimoni .andes {
+  height: auto;
+  width: 50%;
+  margin-left: 50%;
+  margin-top: 3%;
+  margin-bottom: 5%;
+}
+
+.touch h1 {
+  margin-top: 5vmax;
+  margin-bottom: 5vmax;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.4vmax;
+  font-weight: 700;
+  color: #0FCEE7;
+}
+
+.custom-touch {
+  background-image: url("img/Rectangle.png");
+  background-repeat: no-repeat;
+  background-attachment: relative;
+  background-size: 100vmax;
+}
+
+.email {
+  width: 2.5em;
+  margin-top: 3vmax;
+}
+
+h5 {
+  font-family: 'Poppins', sans-serif;
+  color: #FFFFFF;
+  font-size: 18px;
+  margin-top: -1.8em;
+  margin-left: 3em;
+}
+
+.loc {
+  width: 2.5em;
+  margin-top: 2.5vmax;
+}
+
+h4 {
+  font-family: 'Poppins', sans-serif;
+  color: #FFFFFF;
+  font-size: 18px;
+  margin-top: -2.7em;
+  margin-left: 3em;
+}
+
+.iphone {
+  width: 20vmax;
+  margin-left: 75%;
+  margin-top: -25vmax;
+}
+
+.send {
+  font-family: 'Poppins', sans-serif;
+  font-size: .8rem;
+  font-weight: 700;
+  display: inline-block;
+  color: #077684;
+  background-color: #0FCEE7;
+  padding: .5em 1.5em;
+  text-decoration: none;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  position: absolute;
+  right: 13.7%;
+  margin: 12px;
+  padding-left: 2em;
+  padding-right: 2em;
+  max-width: 300px;
+  border-radius: 5px;
+}
+
+.send:hover {
+  color: #FFFFFF;
+}
+
+footer {
+  position: relative;
+  margin-top: 10%;
+  height: 110px;
+  padding-top: 5%;
+  padding-bottom: 4%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .custom-find {
+  margin-left: 5%;
+}
+
+footer .custom-find h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  color: #0FCEE7;
+}
+
+footer .custom-services {
+  margin-left: 4%;
+}
+
+footer .custom-services h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #0FCEE7;
+}
+
+footer .custom-services .col {
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  color: #FFFFFF;
+  -webkit-column-count: 1;
+          column-count: 1;
+}
+
+.social-icons a {
+  width: 35px;
+  height: 35px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 5px;
+  background-color: #077684;
+  border-radius: 50%;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+}
+
+.copyright {
+  background-color: #000000;
+  padding: .5px;
+}
+
+.copyright p {
+  margin-top: 3px;
+  margin-bottom: 5px;
+  color: #FFFFFF;
+  opacity: 60%;
+  text-align: right;
+  font-size: 12px;
+  padding-right: 10px;
+}
+
+.social-icons i {
+  color: #FFFFFF;
+}
+
+.social-icons a:hover,
+.social-bar a:hover {
+  background-color: #FFFFFF;
+  -webkit-box-shadow: 2px 2px 12px rgba(7, 118, 132, 0.4);
+          box-shadow: 2px 2px 12px rgba(7, 118, 132, 0.4);
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+}
+
+.social-icons a:hover i,
+.social-bar a:hover i {
+  color: #077684;
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+}
+
+.social-bar {
+  position: fixed;
+  top: 50%;
+  left: 10px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.social-bar i {
+  color: #FFFFFF;
+  font-size: 20px;
+}
+
+.social-bar a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 40px;
+  height: 50px;
+  padding: 0px;
+  margin: 0px;
+  line-height: 0px;
+  background-color: #077684;
+  -webkit-box-shadow: 2px 2px 15px rgba(7, 118, 132, 0.6);
+          box-shadow: 2px 2px 15px rgba(7, 118, 132, 0.6);
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+}
+
+.social-bar #top {
+  border-radius: 50% 50% 0 0;
+}
+
+.social-bar #bottom {
+  border-radius: 0 0 50% 50%;
+}
+/*# sourceMappingURL=web1.css.map */

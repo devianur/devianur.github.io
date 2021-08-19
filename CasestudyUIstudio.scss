@@ -1,0 +1,412 @@
+@import 'fonts';
+@import 'variable';
+@import 'mixin';
+//styles
+html{
+    scroll-behavior: smooth;
+}
+body{
+  background-image:url("img/CaseStudy.png");
+  #mouse{
+    left: 50%;
+    cursor: pointer;
+    }
+}
+
+//navigation
+
+.custom-nav {
+    .navbar-brand{
+        img {
+            width: 143px;
+            height: 60.62px;
+            }
+    }
+    #custom-navi{
+        .navbar-nav{
+            .nav-item{
+                .nav-link{
+                color: $tertiaryColor;
+                font-family: 'Montserrat', sans-serif;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 20px;
+                margin-left: 2em;
+                transition: 0.3s color ease;
+                
+                &:hover{
+                    color: $primaryColor;
+                    }
+                
+                }
+                .active{
+                        color: $primaryColor;
+                    }
+            }
+        }
+    }
+    
+}
+
+//judul
+.title{
+  h1{
+    margin-top: 1.3em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 2.5vmax;
+    color: $secondaryColor;
+  }
+  h2{
+    margin-top: 2em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:400;
+    font-size: 1.7vmax;
+    color: $secondaryColor;
+  }
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: $secondaryColor;
+}
+p{
+  text-align: justify;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+h4{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: $secondaryColor;
+}
+
+//vision board
+.board{
+  margin-top: 2em;
+  h5{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: $secondaryColor;
+    #icon{
+      margin-right: 5px;
+    }
+  }
+  table, tr, td {
+    margin-top: 1em;
+    border: 2px solid $secondaryColor;
+    border-collapse: collapse;
+    ul{
+      text-align: left;
+      list-style-type:disc;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      padding-left: 20px;
+    }
+  }
+}
+
+//define
+  #noldua{
+  margin-top: 7em;
+  position: absolute;
+  right: 0;
+  }
+.define{
+  margin-top: 10em;
+    #notesinterview{
+    width: 40vmax;
+    margin-top: 3em;
+    }
+  #notesinterview2{
+    width: 25vmax;
+    margin-left: 70px;
+  }
+}
+
+.affinity{
+  margin-top: 5em;
+  #mapping{
+    margin-top: .5em;
+    width: 100%;
+    margin-left: 0;
+  }
+}
+  #tabelbackground{
+    position: absolute;
+    margin-top: 3em;
+    right: 3.5em;
+  }
+.insight{
+  margin-top: 5em;
+
+  ol{
+    padding-left: 20px;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    padding-left: 20px;
+  }
+  table,td,th{
+    margin-top: 3em;
+    border: 2px solid $secondaryColor;
+    border-collapse: collapse;
+    font-family: 'Montserrat', sans-serif;
+  }
+  td{
+    ul{
+      text-align: left;
+      list-style-type:disc;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      padding-left: 20px;
+    }
+  }
+}
+
+//user persona
+#UserPersona{
+  position: absolute;
+  right: 0;
+  margin-top: 10em;
+  margin-bottom: 5em;
+  width: auto;
+  height: 671px;
+}
+
+//madlibs
+.madlibs{
+  position: relative;
+  margin-top: 25em;
+  margin-left: 50%;
+
+}
+
+//user journey
+.journey{
+  margin-top: 28em;
+  p{
+    margin-top: 3em;
+  }
+  #mutia{
+    margin-top: 1em;
+    width: 540px;
+  }
+  img{
+    border: 2px solid $backgroundPort;
+  }
+  #deni{
+    margin-top: 1em;
+    width: 540px;
+  }
+}
+
+//ideate phase
+#noltiga{
+  margin-top: 8em;
+  position: absolute;
+  right: 0;
+  }
+.ideatePhase{  
+  margin-top: 15em;
+  h3{
+    color: #E1BBB7;
+    margin-bottom: 2em;
+  }
+  ol{
+  text-align: justify;
+  padding-left: 1.2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  }
+
+}
+
+// 04 SKETCH
+#nolempat{
+  margin-top: 10em;
+  position: absolute;
+  right: 47%;
+  }
+.sketch{
+  margin-top: 13em;
+}
+.detailsketch{
+  margin-top: 7em;
+}
+#sketch3{
+  margin-top: 2em;
+}
+
+// wireframe
+#nollima{
+  margin-top: 10em;
+}
+.wireframe{
+  margin-top: 5em;
+  img{
+    border: 2px solid $backgroundPort;
+  }
+}
+#frame{
+  margin-top: 2em;
+  height: 670px;
+  width: auto;
+}
+
+
+//06 prototype
+#nolenam{
+  margin-top: 10em;
+  position: absolute;
+  right: 0;
+}
+.prototype{
+  margin-top: 12em;
+  margin-right: 5em;
+}
+#danstudio1{
+  margin-top: 4em;
+  margin-left: 3em;
+}
+#danstudio2{
+  margin-top: 1em;
+  width: 680px;
+}
+#danstudio5{
+  margin-top: 1em;
+  width: 680px;
+  height: auto;
+}
+
+//conclusion
+.conclusion{
+  margin-top: 10em;
+  p{
+    margin-top: 3em;
+  }
+}
+
+//footer
+footer{
+    position: relative;
+    margin-top: 10%;
+    height: 110px;
+    padding-top: 5%;
+    padding-bottom: 4%;
+    background-color: rgba($blackcolor,0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+  
+footer  .custom-find{
+    margin-left: 5%;
+    h3{
+        font-family: 'Poppins', sans-serif; 
+        font-size: 14px;
+        color: $primaryColor;
+    }
+}
+footer .custom-services{
+    margin-left: 4%;
+    h3{
+    font-family: 'Poppins', sans-serif; 
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: $primaryColor;
+    }
+    .col{
+        font-family: 'Poppins', sans-serif; 
+        font-size: 12px;
+        color: $tertiaryColor;
+        column-count: 1;
+    }
+}
+  
+.social-icons a{
+    width: 35px;
+    height: 35px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin : 5px;
+    background-color: $secondaryColor;
+    border-radius: 50%;
+    text-decoration-line: none;
+  }
+.copyright{
+    background-color: $blackcolor;
+    padding: .5px;
+    p{
+    margin-top:3px;
+    margin-bottom: 5px;
+    color: $tertiaryColor;opacity: 60%;
+    text-align: right;
+    font-size: 12px;
+    padding-right: 10px;
+    }
+  
+  }
+.social-icons i{
+  color:$tertiaryColor;
+  }
+.social-icons a:hover, 
+.social-bar a:hover{
+    background-color:$tertiaryColor;
+    box-shadow: 2px 2px 12px rgba($secondaryColor,0.4);
+    transition: all ease 0.5s;
+    }
+  
+.social-icons a:hover i,
+.social-bar a:hover i{
+    color: $secondaryColor;
+    transition: all ease 0.5s;
+  }
+  
+.social-bar{
+    position: fixed;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+  }
+.social-bar i{
+    color: $tertiaryColor;
+    font-size: 20px;
+  }
+.social-bar a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 50px;
+    padding: 0px;
+    margin: 0px;
+    line-height: 0px;
+    background-color: $secondaryColor;
+    box-shadow: 2px 2px 15px rgba($secondaryColor,0.6);
+    text-decoration-line: none;
+  }
+.social-bar{
+  #top{
+    border-radius: 50% 50% 0 0;
+  }
+  #bottom{
+    border-radius: 0 0 50% 50%;
+  }
+}

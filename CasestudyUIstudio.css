@@ -1,0 +1,453 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url("img/CaseStudy.png");
+}
+
+body #mouse {
+  left: 50%;
+  cursor: pointer;
+}
+
+.custom-nav .navbar-brand img {
+  width: 143px;
+  height: 60.62px;
+}
+
+.custom-nav #custom-navi .navbar-nav .nav-item .nav-link {
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  margin-left: 2em;
+  -webkit-transition: 0.3s color ease;
+  transition: 0.3s color ease;
+}
+
+.custom-nav #custom-navi .navbar-nav .nav-item .nav-link:hover {
+  color: #0FCEE7;
+}
+
+.custom-nav #custom-navi .navbar-nav .nav-item .active {
+  color: #0FCEE7;
+}
+
+.title h1 {
+  margin-top: 1.3em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 2.5vmax;
+  color: #077684;
+}
+
+.title h2 {
+  margin-top: 2em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1.7vmax;
+  color: #077684;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #077684;
+}
+
+p {
+  text-align: justify;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #077684;
+}
+
+.board {
+  margin-top: 2em;
+}
+
+.board h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #077684;
+}
+
+.board h5 #icon {
+  margin-right: 5px;
+}
+
+.board table, .board tr, .board td {
+  margin-top: 1em;
+  border: 2px solid #077684;
+  border-collapse: collapse;
+}
+
+.board table ul, .board tr ul, .board td ul {
+  text-align: left;
+  list-style-type: disc;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  padding-left: 20px;
+}
+
+#noldua {
+  margin-top: 7em;
+  position: absolute;
+  right: 0;
+}
+
+.define {
+  margin-top: 10em;
+}
+
+.define #notesinterview {
+  width: 40vmax;
+  margin-top: 3em;
+}
+
+.define #notesinterview2 {
+  width: 25vmax;
+  margin-left: 70px;
+}
+
+.affinity {
+  margin-top: 5em;
+}
+
+.affinity #mapping {
+  margin-top: .5em;
+  width: 100%;
+  margin-left: 0;
+}
+
+#tabelbackground {
+  position: absolute;
+  margin-top: 3em;
+  right: 3.5em;
+}
+
+.insight {
+  margin-top: 5em;
+}
+
+.insight ol {
+  padding-left: 20px;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  padding-left: 20px;
+}
+
+.insight table, .insight td, .insight th {
+  margin-top: 3em;
+  border: 2px solid #077684;
+  border-collapse: collapse;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.insight td ul {
+  text-align: left;
+  list-style-type: disc;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  padding-left: 20px;
+}
+
+#UserPersona {
+  position: absolute;
+  right: 0;
+  margin-top: 10em;
+  margin-bottom: 5em;
+  width: auto;
+  height: 671px;
+}
+
+.madlibs {
+  position: relative;
+  margin-top: 25em;
+  margin-left: 50%;
+}
+
+.journey {
+  margin-top: 28em;
+}
+
+.journey p {
+  margin-top: 3em;
+}
+
+.journey #mutia {
+  margin-top: 1em;
+  width: 540px;
+}
+
+.journey img {
+  border: 2px solid #B7DDE1;
+}
+
+.journey #deni {
+  margin-top: 1em;
+  width: 540px;
+}
+
+#noltiga {
+  margin-top: 8em;
+  position: absolute;
+  right: 0;
+}
+
+.ideatePhase {
+  margin-top: 15em;
+}
+
+.ideatePhase h3 {
+  color: #E1BBB7;
+  margin-bottom: 2em;
+}
+
+.ideatePhase ol {
+  text-align: justify;
+  padding-left: 1.2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+#nolempat {
+  margin-top: 10em;
+  position: absolute;
+  right: 47%;
+}
+
+.sketch {
+  margin-top: 13em;
+}
+
+.detailsketch {
+  margin-top: 7em;
+}
+
+#sketch3 {
+  margin-top: 2em;
+}
+
+#nollima {
+  margin-top: 10em;
+}
+
+.wireframe {
+  margin-top: 5em;
+}
+
+.wireframe img {
+  border: 2px solid #B7DDE1;
+}
+
+#frame {
+  margin-top: 2em;
+  height: 670px;
+  width: auto;
+}
+
+#nolenam {
+  margin-top: 10em;
+  position: absolute;
+  right: 0;
+}
+
+.prototype {
+  margin-top: 12em;
+  margin-right: 5em;
+}
+
+#danstudio1 {
+  margin-top: 4em;
+  margin-left: 3em;
+}
+
+#danstudio2 {
+  margin-top: 1em;
+  width: 680px;
+}
+
+#danstudio5 {
+  margin-top: 1em;
+  width: 680px;
+  height: auto;
+}
+
+.conclusion {
+  margin-top: 10em;
+}
+
+.conclusion p {
+  margin-top: 3em;
+}
+
+footer {
+  position: relative;
+  margin-top: 10%;
+  height: 110px;
+  padding-top: 5%;
+  padding-bottom: 4%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .custom-find {
+  margin-left: 5%;
+}
+
+footer .custom-find h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  color: #0FCEE7;
+}
+
+footer .custom-services {
+  margin-left: 4%;
+}
+
+footer .custom-services h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #0FCEE7;
+}
+
+footer .custom-services .col {
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  color: #FFFFFF;
+  -webkit-column-count: 1;
+          column-count: 1;
+}
+
+.social-icons a {
+  width: 35px;
+  height: 35px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 5px;
+  background-color: #077684;
+  border-radius: 50%;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+}
+
+.copyright {
+  background-color: #000000;
+  padding: .5px;
+}
+
+.copyright p {
+  margin-top: 3px;
+  margin-bottom: 5px;
+  color: #FFFFFF;
+  opacity: 60%;
+  text-align: right;
+  font-size: 12px;
+  padding-right: 10px;
+}
+
+.social-icons i {
+  color: #FFFFFF;
+}
+
+.social-icons a:hover,
+.social-bar a:hover {
+  background-color: #FFFFFF;
+  -webkit-box-shadow: 2px 2px 12px rgba(7, 118, 132, 0.4);
+          box-shadow: 2px 2px 12px rgba(7, 118, 132, 0.4);
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+}
+
+.social-icons a:hover i,
+.social-bar a:hover i {
+  color: #077684;
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+}
+
+.social-bar {
+  position: fixed;
+  top: 50%;
+  left: 10px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.social-bar i {
+  color: #FFFFFF;
+  font-size: 20px;
+}
+
+.social-bar a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 40px;
+  height: 50px;
+  padding: 0px;
+  margin: 0px;
+  line-height: 0px;
+  background-color: #077684;
+  -webkit-box-shadow: 2px 2px 15px rgba(7, 118, 132, 0.6);
+          box-shadow: 2px 2px 15px rgba(7, 118, 132, 0.6);
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+}
+
+.social-bar #top {
+  border-radius: 50% 50% 0 0;
+}
+
+.social-bar #bottom {
+  border-radius: 0 0 50% 50%;
+}
+/*# sourceMappingURL=CasestudyUIstudio.css.map */

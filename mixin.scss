@@ -1,0 +1,11 @@
+// mixin button
+@mixin tombol {
+    font-family: 'Poppins', sans-serif;
+    font-size: .8rem;
+    font-weight: 700;
+    display: inline-block;
+    color: $secondaryColor;
+    background-color: $primaryColor;
+    padding: .5em 1.5em;   
+    text-decoration: none;
+}
