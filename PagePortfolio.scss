@@ -237,12 +237,12 @@ html{
       p{
         font-size: 14px;
         font-weight: 300;
-        color: $tertiaryColor;
+        color: rgba($blackcolor,.8);
+        text-align: justify;
       }
       bottom: 20px;
       right: 0;
       background-color:rgba($backgroundPort,.8);
-      color: white;
       margin-right: 60%;
       padding: 50px;
     } 
@@ -267,12 +267,12 @@ html{
       p{
         font-size: 14px;
         font-weight: 300;
-        color: $tertiaryColor;
+        color: rgba($blackcolor,.8);
+        text-align: justify;
       }
       top : 20px;
       right: 0;
       background-color:rgba($backgroundPort,.8);
-      color: white;
       margin-left: 60%;
       padding: 50px;
     } 

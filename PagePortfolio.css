@@ -246,7 +246,6 @@ html {
   bottom: 20px;
   right: 0;
   background-color: rgba(183, 221, 225, 0.8);
-  color: white;
   margin-right: 60%;
   padding: 50px;
 }
@@ -259,7 +258,8 @@ html {
 .brandayusa .text-block p {
   font-size: 14px;
   font-weight: 300;
-  color: #FFFFFF;
+  color: rgba(0, 0, 0, 0.8);
+  text-align: justify;
 }
 
 .brandidentity {
@@ -280,7 +280,6 @@ html {
   top: 20px;
   right: 0;
   background-color: rgba(183, 221, 225, 0.8);
-  color: white;
   margin-left: 60%;
   padding: 50px;
 }
@@ -293,7 +292,8 @@ html {
 .brandidentity .text-blocks p {
   font-size: 14px;
   font-weight: 300;
-  color: #FFFFFF;
+  color: rgba(0, 0, 0, 0.8);
+  text-align: justify;
 }
 
 .imagelogoa {
