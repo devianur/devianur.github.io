@@ -13,6 +13,14 @@ body{
     }
 }
 
+//mouse
+@media screen and (max-width:992px) {
+  #mouse{
+      display: none;
+  }
+
+}
+
 //navigation
 
 .custom-nav {

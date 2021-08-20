@@ -150,6 +150,7 @@ body {
             color: $primaryColor;
             text-align: left;
             white-space: nowrap;
+            margin-top: 1.5em;
         }
         p{
             margin-top: 2.5em;
@@ -159,6 +160,7 @@ body {
             color: $secondaryColor;
             text-align: justify;
             font-size: 1rem;
+
         }
         
         h5{
@@ -175,6 +177,7 @@ body {
             margin-top: 1em;
             transition: 0.3s ease;
             padding: .5em 3em;
+            margin-bottom: 1em;
             &:hover{
             color:$tertiaryColor;
             }

@@ -13,6 +13,12 @@ body #mouse {
   cursor: pointer;
 }
 
+@media screen and (max-width: 992px) {
+  #mouse {
+    display: none;
+  }
+}
+
 .custom-nav .navbar-brand img {
   width: 143px;
   height: 60.62px;

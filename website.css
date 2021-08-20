@@ -145,6 +145,7 @@ body::before {
   color: #0FCEE7;
   text-align: left;
   white-space: nowrap;
+  margin-top: 1.5em;
 }
 
 .custom-about .custom-aboutme p {
@@ -180,6 +181,7 @@ body::before {
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
   padding: .5em 3em;
+  margin-bottom: 1em;
 }
 
 .custom-about .custom-aboutme a:hover {
